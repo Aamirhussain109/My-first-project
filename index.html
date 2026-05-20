@@ -1,10 +1,75 @@
 <!DOCTYPE html>
-<html>
+<html lang="ur">
 <head>
-    <title>Mera Pehla Project</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mera Digital Card</title>
+    <style>
+        body {
+            background-color: #f3f4f6;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .card {
+            background-color: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            text-align: center;
+            max-width: 350px;
+            width: 100%;
+        }
+        .profile-img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background-color: #00bcd4;
+            margin: 0 auto 15px;
+        }
+        h1 {
+            color: #333;
+            margin: 10px 0 5px 0;
+            font-size: 24px;
+        }
+        .title {
+            color: #777;
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+        .btn-whatsapp {
+            display: inline-block;
+            background-color: #25D366;
+            color: white;
+            text-decoration: none;
+            padding: 12px 25px;
+            border-radius: 25px;
+            font-weight: bold;
+            font-size: 16px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+    </style>
 </head>
 <body>
-    <h1>Khush Amdeed!</h1>
-    <p>Yeh mera GitHub par pehla project hai.</p>
+
+    <div class="card">
+        <!-- گول دائرہ تصویر کے لیے -->
+        <div class="profile-img"></div>
+        
+        <!-- اپنا نام یہاں لکھیں -->
+        <h1>Aamir Hussain</h1>
+        
+        <!-- اپنے کام کی تفصیل یہاں لکھیں -->
+        <p class="title">Online Business Expert</p>
+        
+        <!-- نیچے دیے گئے لنک میں 923292586163 کی جگہ اپنا واٹس ایپ نمبر لکھیں -->
+        <a href="https://wa.me" class="btn-whatsapp" target="_blank">
+            💬 WhatsApp Message
+        </a>
+    </div>
+
 </body>
 </html>
