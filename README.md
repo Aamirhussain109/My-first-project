@@ -12,6 +12,10 @@
         .required { color: #cc0000; margin-left: 2px; }
         input[type="text"] { width: 100%; padding: 12px 15px; font-size: 16px; border: 1.5px solid #666666; border-radius: 12px; box-sizing: border-box; outline: none; }
         input[type="text"]:focus { border-color: #000000; }
+        
+        /* بٹن کا نیا ڈیزائن */
+        .submit-btn { width: 100%; padding: 14px; background-color: #000000; color: white; border: none; border-radius: 12px; font-size: 16px; font-weight: bold; cursor: pointer; margin-top: 10px; transition: background 0.2s; }
+        .submit-btn:hover { background-color: #333333; }
     </style>
 </head>
 <body>
@@ -32,6 +36,9 @@
                 <label for="school">School name</label>
                 <input type="text" id="school" name="school">
             </div>
+
+            <!-- یہاں بٹن شامل کیا گیا ہے -->
+            <button type="submit" class="submit-btn">Submit</button>
         </form>
     </div>
 
